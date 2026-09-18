@@ -32,9 +32,8 @@ A estrutura é bem direta:
 
 - Clone o repositório:
 git clone https://github.com/sebrian-dev/Curso-SQL-Teo-Me-Why.git
-
 - Abra os scripts no seu cliente SQL preferido (SQLite, DBeaver, etc.) 🖥️
-- Execute na ordem numérica, do 01 ao 11. 🔢
+- Execute na ordem numérica. 🔢
 - Depois de cada tópico, dá uma olhada na pasta exercicios/ pra fixar melhor. 💪
 
 ### 🔗 Links Úteis
