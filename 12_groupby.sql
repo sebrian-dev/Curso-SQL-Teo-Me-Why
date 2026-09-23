@@ -1,0 +1,18 @@
+/* SELECT IdProduto,
+       count(*)
+FROM transacao_produto
+GROUP BY IdProduto */
+
+/* O Groupy by serve para agrupar linhas que possuem o mesmo valor em colunas específica 
+"Having" filtra os dados agrupados com base nos resultados das funções de agregação, ou seja, seria um filtro do group by, famoso filtro do filtro. */
+
+SELECT IdCliente,
+       sum(QtdePontos) AS TotaldePontos,
+       count(IdTransacao)
+FROM transacoes
+WHERE DtCriacao >= '2025-07-01' AND DtCriacao < '2025-08-01'
+GROUP BY idCliente  
+HAVING TotaldePontos >= 4000
+ORDER BY TotaldePontos DESC
+LIMIT 10  
+ 
